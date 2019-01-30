@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+  <meta charset=utf-8>
+  <title>Testing a PayPal Payments Standard Button</title>
+</head>
+<body>
+
+  <div class="card col s12 m3 borderR cardStyle" style="padding: 0px;">
+    <div class="card-image waves-effect waves-block waves-light borderR">
+      <img alt="Cappuccino" class="activator" src="img/capp2.jpg">
+    </div>
+    <div class="card-content" style="padding-left: 0px;">
+      <span class="card-title activator grey-text text-darken-4 coffeeTitle">Cappuccino<i class="material-icons right ltBrownText" >add_circle</i></span>
+
+  <!--Coffee Frappe Button-->
+  <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+    <!-- Identify your business so that you can collect the payments. -->
+    <input type="hidden" name="business" value="nicolas5150-facilitator@gmail.com">
+
+    <!-- Specify an Add to Cart button. -->
+    <input type="hidden" name="cmd" value="_cart">
+    <input type="hidden" name="add" value="1">
+
+    <!-- Specify details about the item that buyers will purchase. -->
+    <input type="hidden" name="item_name" value="Coffee - Frappe">
+    <input type="hidden" name="currency_code" value="USD">
+
+    <!-- Provide a drop-down menu option field with prices. -->
+    <input type="hidden" name="on1" value="Size">
+    <label for="os1">Size</label>
+    <select name="os1" id="os1">
+        <option value="Select a size">-- Sizes --</option>
+        <option value="Small">Small - $3.95 USD</option>
+        <option value="Medium">Medium - $4.95 USD</option>
+        <option value="Large">Large - $5.95 USD</option>
+    </select>
+
+    <!-- Specify the price that PayPal uses for each option. -->
+    <input type="hidden" name="option_index" value="1">
+    <input type="hidden" name="option_select0" value="Small">
+    <input type="hidden" name="option_amount0" value="3.95">
+    <input type="hidden" name="option_select1" value="Medium">
+    <input type="hidden" name="option_amount1" value="4.95">
+    <input type="hidden" name="option_select2" value="Large">
+    <input type="hidden" name="option_amount2" value="5.95">
+
+    <!-- Add a text field for comments. -->
+    <!-- https://www.paypal-community.com/t5/How-to-use-PayPal-Archive/How-to-I-add-a-comment-section-quot-cart-quot/td-p/4706 -->
+    <input type="hidden" name="on7" value="Message">
+    <textarea name="os7" rows="2" cols="20" wrap></textarea>
+
+    <!-- Continue shopping on the web page for birthday cards -->
+    <input type="hidden" name="shopping_url" value="http://sulley.cah.ucf.edu/~dig4503group2/2nd_dose/html/coffee.html">
+
+    <!-- Display the payment button. -->
+    <input type="image" name="submit"
+        src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_addtocart_120x26.png"
+        alt="Add to Cart">
+    <img alt="" width="1" height="1"
+        src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+  </form>
+
+
+  <!--Coffee Black Button-->
+  <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+    <!-- Identify your business so that you can collect the payments. -->
+    <input type="hidden" name="business" value="nicolas5150-facilitator@gmail.com">
+
+    <!-- Specify an Add to Cart button. -->
+    <input type="hidden" name="cmd" value="_cart">
+    <input type="hidden" name="add" value="1">
+
+    <!-- Specify details about the item that buyers will purchase. -->
+    <input type="hidden" name="item_name" value="Coffee - Black">
+    <input type="hidden" name="currency_code" value="USD">
+
+    <!-- Provide a drop-down menu option field with prices. -->
+    <input type="hidden" name="on1" value="Size">
+    <label for="os1">Size</label>
+    <select name="os1" id="os1">
+        <option value="Select a size">-- Sizes --</option>
+        <option value="Small">Small - $2.95 USD</option>
+        <option value="Medium">Medium - $3.95 USD</option>
+        <option value="Large">Large - $4.95 USD</option>
+    </select>
+
+    <!-- Specify the price that PayPal uses for each option. -->
+    <input type="hidden" name="option_index" value="1">
+    <input type="hidden" name="option_select0" value="Small">
+    <input type="hidden" name="option_amount0" value="2.95">
+    <input type="hidden" name="option_select1" value="Medium">
+    <input type="hidden" name="option_amount1" value="3.95">
+    <input type="hidden" name="option_select2" value="Large">
+    <input type="hidden" name="option_amount2" value="4.95">
+
+    <!-- Add a text field for comments. -->
+    <!-- https://www.paypal-community.com/t5/How-to-use-PayPal-Archive/How-to-I-add-a-comment-section-quot-cart-quot/td-p/4706 -->
+    <input type="hidden" name="on7" value="Message">
+    <textarea name="os7" rows="2" cols="20" wrap></textarea>
+
+    <!-- Continue shopping on the web page for birthday cards -->
+    <input type="hidden" name="shopping_url" value="http://sulley.cah.ucf.edu/~dig4503group2/2nd_dose/html/coffee.html">
+
+    <!-- Display the payment button. -->
+    <input type="image" name="submit"
+        src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_addtocart_120x26.png"
+        alt="Add to Cart">
+    <img alt="" width="1" height="1"
+        src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+  </form>
+
+  <!--Coffee Cart Button-->
+  <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" >
+  <input type="hidden" name="cmd" value="_s-xclick">
+  <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+  ">
+  <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+  <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+  </form>
+
+
+</body>
+</html>

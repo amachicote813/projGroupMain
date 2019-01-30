@@ -1,0 +1,94 @@
+notes
+
+outside group member special feature. 
+-- reviews or ratings, star system 
+-- check boxes append to the input box
+- most sold, so users can see the most popular item. 
+
+
+155 - 
+
+dont need checkout 
+
+just style and change the values that will be passed over to paypal 
+
+-- NEEDS TO GO OVER
+ ---- IMG below the display button with a hieght of 1px x 1 px
+
+ ---- view cart placement, because it stored in a form, we may need to work around
+-----
+
+star buckz menue 
+
+__^^^^^hot ^^^^^
+
+coffees
+
+- Cappuccino
+== Our Cappuccino is made from freshly ground and brewed espresso combined with steamed milk and topped with a thick layer of foam.
+
+$3.29 12oz | $3.76 16oz | $4.23 20oz
+
+- Coffee
+  --Our famous Hot Coffee is made from high-quality 100% Arabica beans and is freshly ground and brewed continually throughout the day.
+
+$1.88 12oz | $2.35 16oz | $2.82 20oz | Refill $1
+
+- Latte
+-- We combine our freshly ground and brewed espresso with steamed milk, and top it off with a thin layer of foam, to create our rich and creamy Hot Latte.
+
+$3.29 12oz | $3.76 16oz | $4.23 20oz
+
+- Expresso
+== ur blend of espresso is selected from high-quality beans that are roasted to perfection. We freshly grind and brew every shot of espresso for each beverage a guest orders. 
+
+single $2.35 | double $2.82 tripple $3
+
+- Americano
+-- Our new Hot Americano combines two shots of Dunkin’ Donuts’ 100% Rainforest Alliance Certified™ espresso with hot water for a rich, robust flavor
+
+$2.35 12oz | $2.82 16oz | $3.29 20oz
+
+- Macchiato
+==A layered espresso beverage, crafted with care that contains two shots of espresso poured over steamed milk with a swirl of flavor.
+
+
+Hot Cocoa
+$3.29 12oz | $3.76 16oz | $4.23 20oz
+
+[][][][][ICED][][][][][][]
+
+- iced coffee
+
+== Freshly brewed and full of flavor, our Iced Coffee gets you energized and ready to go.
+
+Passion Fruit Iced Teas
+== A perfect balance of sweetness and refreshment, our Fruited Iced Teas combine freshly brewed iced tea with passion fruit juice.
+
+16oz [ one size ] $2.70
+
+- frozen coffee coolatta
+Cold, creamy, and delicious. It's the perfect way to treat yourself.
+
+16oz [ one size ] $3.70
+
+Iced Tea
+Our refreshing, revitalizing teas are freshly brewed in each day and served over ice and come in flavors
+unsweet, sweet, green tea (sweetened), raspberry (sweetened)
+[ one size ] $2.82
+
+
+
+
+
+
+
+3 values to watch 
+
+
+sizes
+
+messag 
+
+
+
